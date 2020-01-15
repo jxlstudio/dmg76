@@ -1,0 +1,78 @@
+{
+  "data": [
+    [
+      {
+        "name": "Executioner's",
+        "damageMultPercent": 50
+      },
+      {
+        "name": "Exterminator's",
+        "versus": ["Bug", "Mirelurk"],
+        "versusAddPercent": 30
+      },
+      {
+        "name": "Anti-armor",
+        "ignoreDRPercent": 50
+      },
+      {
+        "name": "Nocturnal",
+        "damageMultPercent": 30
+      },
+      {
+        "name": "Zealot's",
+        "versus": ["Scorched"],
+        "versusAddPercent": 30
+      },
+      {
+        "name": "Hunter's",
+        "versus": ["Animal"],
+        "damageMultPercent": 30
+      },
+      {
+        "name": "Mutant slayer's",
+        "versus": ["Mutant"],
+        "versusAddPercent": 30
+      },
+      {
+        "name": "Mutant's",
+        "damageMultPercent": 10
+      },
+      {
+        "name": "Ghoul slayer's",
+        "versus": ["Ghoul"],
+        "versusAddPercent": 30
+      },
+      {
+        "name": "Bloodied",
+        "damageMultPercent": 60
+      },
+      {
+        "name": "Troubleshooter's",
+        "versus": ["Robot"],
+        "versusAddPercent": 30
+      },
+      {
+        "name": "Instigating",
+        "damageMultPercent": 100
+      },
+      {
+        "name": "Furious"
+      },
+      {
+        "name": "Junkie's"
+      }
+    ],
+    [
+      {
+        "name": "40% increased swing speed",
+        "speedMultPercent": 40
+      }
+    ],
+    [
+      {
+        "name": "Strength",
+        "text": "+1 Strength"
+      }
+    ]
+  ]
+}

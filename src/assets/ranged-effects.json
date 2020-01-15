@@ -1,0 +1,95 @@
+{
+  "data": [
+    [
+      {
+        "name": "Executioner's",
+        "damageMultPercent": 50
+      },
+      {
+        "name": "Furious"
+      },
+      {
+        "name": "Exterminator's",
+        "versus": ["Bug", "Mirelurk"],
+        "versusAddPercent": 50
+      },
+      {
+        "name": "Two shot",
+        "damageMultPercent": 25
+      },
+      {
+        "name": "Two shot (pre nerf)",
+        "damageMultPercent": 100
+      },
+      {
+        "name": "Anti-armor",
+        "ignoreDRPercent": 50
+      },
+      {
+        "name": "Nocturnal",
+        "damageMultPercent": 30
+      },
+      {
+        "name": "Zealot's",
+        "versus": ["Scorched", "Scorchbeast", "Scorchbeast Queen"],
+        "versusAddPercent": 30
+      },
+      {
+        "name": "Hunter's",
+        "versus": ["Animal"],
+        "versusAddPercent": 30
+      },
+      {
+        "name": "Mutant slayer's",
+        "versus": ["Mutant"],
+        "damageMultPercent": 30
+      },
+      {
+        "name": "Mutant's",
+        "damageMultPercent": 10
+      },
+      {
+        "name": "Ghoul slayer's",
+        "versus": ["Ghoul"],
+        "versusAddPercent": 30
+      },
+      {
+        "name": "Bloodied",
+        "damageMultPercent": 60
+      },
+      {
+        "name": "Instigating",
+        "damageMultPercent": 100
+      },
+      {
+        "name": "Troubleshooter's",
+        "versus": ["Robot"],
+        "versusAddPercent": 30
+      },
+      {
+        "name": "Junkie's"
+      }
+    ],
+    [
+      {
+        "name": "Explosive",
+        "damageMultPercent": 20
+      },
+      {
+        "name": "ExplosiveOld",
+        "text": "Explosive (pre nerf)",
+        "damageMultPercent": 100
+      },
+      {
+        "name": "Aiming",
+        "text": "+10% damage while aiming",
+        "damageMultPercent": 10
+      },
+      {
+        "name": "25% increased fire rate",
+        "speedMultPercent": 25
+      }
+    ],
+    []
+  ]
+}

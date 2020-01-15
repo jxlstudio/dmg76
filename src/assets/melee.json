@@ -1,0 +1,963 @@
+{
+  "data": [
+    {
+      "name": "Board",
+      "category": "One-handed",
+      "strengthFactor": 0.1,
+      "speed": 0.55,
+      "level": [1, 5, 15, 25, 35, 45],
+      "damage": [14, 18, 22, 26, 30, 33],
+      "mods": [
+        {
+          "slot": "Main",
+          "options": [
+            {
+              "name": "Standard"
+            },
+            {
+              "name": "Spiked",
+              "damageMultPercent": 15,
+              "ignoreDRPercent": 10
+            },
+            {
+              "name": "Puncturing",
+              "damageMultPercent": 20,
+              "ignoreDRPercent": 20
+            },
+            {
+              "name": "Bladed",
+              "damageMultPercent": 25
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Deathclaw Gauntlet",
+      "category": "Unarmed",
+      "speed": 0.88,
+      "level": [30, 40, 50],
+      "damage": [45, 50, 55],
+      "mods": [
+        {
+          "slot": "Main",
+          "options": [
+            {
+              "name": "Standard"
+            },
+            {
+              "name": "Extra claw",
+              "damageMultPercent": 20
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Super Sledge",
+      "category": "Two-handed",
+      "speed": 0.55,
+      "level": [30, 40, 50],
+      "damage": [65, 75, 85],
+      "mods": [
+        {
+          "slot": "Main",
+          "options": [
+            {
+              "name": "Standard"
+            },
+            {
+              "name": "Heating coil",
+              "addDamageEnergyLeveled": [5, 7.5, 10]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Tenderizer",
+      "category": "Two-handed",
+      "speed": 0.55,
+      "level": [10, 20, 30, 40, 50],
+      "damage": [35, 45, 55, 67, 75],
+      "mods": [
+        {
+          "slot": "Main",
+          "options": [
+            {
+              "name": "Standard"
+            },
+            {
+              "name": "Peppered",
+              "damageMultPercent": 4
+            },
+            {
+              "name": "Salty",
+              "damageMultPercent": 16
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Sheepsquatch Staff",
+      "category": "Two-handed",
+      "speed": 0.55,
+      "level": [10, 20, 30, 40, 50],
+      "damage": [30, 35, 40, 45, 50],
+      "mods": [
+        {
+          "slot": "Main",
+          "options": [
+            {
+              "name": "Standard"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Power Fist",
+      "category": "Unarmed",
+      "speed": 0.88,
+      "level": [30, 40, 50],
+      "damage": [48, 53, 58],
+      "mods": [
+        {
+          "slot": "Main",
+          "options": [
+            {
+              "name": "Standard"
+            },
+            {
+              "name": "Puncturing",
+              "ignoreDRPercent": 20
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Mole Miner Gauntlet",
+      "category": "Unarmed",
+      "strengthFactor": 0.1,
+      "speed": 0.88,
+      "level": [20, 30, 40, 50],
+      "damage": [30, 35, 40, 45],
+      "mods": [
+        {
+          "slot": "Main",
+          "options": [
+            {
+              "name": "Standard"
+            },
+            {
+              "name": "Third Blade",
+              "damageMultPercent": 15
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Death Tambo",
+      "category": "Unarmed",
+      "speed": 0.88,
+      "level": [15, 25, 35, 45],
+      "damage": [30, 35, 40, 45],
+      "mods": []
+    },
+    {
+      "name": "Machete",
+      "category": "One-handed",
+      "speed": 0.88,
+      "level": [1, 5, 10, 20, 30, 40, 50],
+      "damage": [15, 17, 20, 25, 30, 35, 40],
+      "mods": [
+        {
+          "slot": "Blade",
+          "options": [
+            {
+              "name": "Standard"
+            },
+            {
+              "name": "Serrated",
+              "damageMultPercent": 20
+            },
+            {
+              "name": "Sacrificial",
+              "damageMultPercent": 15
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Bowie Knife",
+      "category": "One-handed",
+      "speed": 1.26,
+      "level": [10, 15, 25, 35, 45],
+      "damage": [10, 15, 20, 25, 30],
+      "mods": []
+    },
+    {
+      "name": "Boxing Glove",
+      "category": "Unarmed",
+      "speed": 0.88,
+      "level": [5, 15, 25, 35, 45],
+      "damage": [13, 18, 23, 28, 34],
+      "mods": [
+        {
+          "slot": "Main",
+          "options": [
+            {
+              "name": "Standard"
+            },
+            {
+              "name": "Lead Lining",
+              "damageMultPercent": 20
+            },
+            {
+              "name": "Spiked",
+              "damageMultPercent": 10
+            },
+            {
+              "name": "Puncturing",
+              "ignoreDRPercent": 20
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Cultist Blade",
+      "category": "One-handed",
+      "speed": 0.88,
+      "level": [10, 20, 30, 40, 50],
+      "damage": [15, 20, 25, 30, 35],
+      "mods": []
+    },
+    {
+      "name": "Cultist Dagger",
+      "category": "One-handed",
+      "speed": 1.26,
+      "level": [15, 25, 35, 45],
+      "damage": [20, 25, 28, 32],
+      "mods": []
+    },
+    {
+      "name": "Multi-purpose Axe",
+      "category": "One-handed",
+      "speed": 0.55,
+      "level": [1, 5, 15, 25, 35, 45],
+      "damage": [26, 32, 42, 52, 62, 69],
+      "mods": []
+    },
+    {
+      "name": "Combat Knife",
+      "category": "One-handed",
+      "speed": 1.26,
+      "level": [1, 5, 10, 20, 30, 40, 50],
+      "damage": [9, 13, 17, 21, 25, 29, 33],
+      "mods": [
+        {
+          "slot": "Blade",
+          "options": [
+            {
+              "name": "Standard"
+            },
+            {
+              "name": "Serrated",
+              "damageMultPercent": 10
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Hatchet",
+      "category": "One-handed",
+      "speed": 0.88,
+      "level": [1, 5, 10, 20, 30, 40, 50],
+      "damage": [15, 17, 20, 25, 30, 35, 40],
+      "mods": []
+    },
+    {
+      "name": "Pickaxe",
+      "category": "Two-handed",
+      "speed": 0.55,
+      "level": [5, 15, 25, 35, 45],
+      "damage": [32, 41, 48, 55, 60],
+      "mods": [
+        {
+          "slot": "Blade",
+          "options": [
+            {
+              "name": "Standard"
+            },
+            {
+              "name": "Sharp",
+              "damageMultPercent": 15
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Ski Sword",
+      "category": "One-handed",
+      "speed": 0.88,
+      "level": [15, 25, 35, 45],
+      "damage": [35, 40, 45, 50],
+      "mods": [
+        {
+          "slot": "Blade",
+          "options": [
+            {
+              "name": "Standard"
+            },
+            {
+              "name": "Metal Shards",
+              "damageMultPercent": 20
+            },
+            {
+              "name": "Skate",
+              "damageMultPercent": 10
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Rolling pin",
+      "category": "One-handed",
+      "speed": 0.88,
+      "level": [1, 5, 10, 20, 30, 40, 50],
+      "damage": [9, 12, 15, 19, 22, 25, 28],
+      "mods": [
+        {
+          "slot": "Blade",
+          "options": [
+            {
+              "name": "Standard"
+            },
+            {
+              "name": "Sharp",
+              "damageMultPercent": 10
+            },
+            {
+              "name": "Spiked",
+              "damageMultPercent": 25
+            },
+            {
+              "name": "Chef's",
+              "damageMultPercent": 20
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Knuckles",
+      "category": "Unarmed",
+      "speed": 0.88,
+      "level": [1, 5, 10, 20, 30, 40, 50],
+      "damage": [8, 10, 15, 20, 25, 30, 35],
+      "mods": [
+        {
+          "slot": "Main",
+          "options": [
+            {
+              "name": "Standard"
+            },
+            {
+              "name": "Sharp",
+              "damageMultPercent": 10
+            },
+            {
+              "name": "Bladed",
+              "damageMultPercent": 10
+            },
+            {
+              "name": "Spiked",
+              "damageMultPercent": 10
+            },
+            {
+              "name": "Puncturing",
+              "damageMultPercent": 10,
+              "ignoreDRPercent": 20
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Lead Pipe",
+      "category": "One-handed",
+      "speed": 0.88,
+      "level": [1, 5, 10, 20, 30, 40, 50],
+      "damage": [14, 16, 19, 24, 29, 34, 39],
+      "mods": [
+        {
+          "slot": "Main",
+          "options": [
+            {
+              "name": "Standard"
+            },
+            {
+              "name": "Heavy",
+              "damageMultPercent": 10
+            },
+            {
+              "name": "Spiked",
+              "damageMultPercent": 10,
+              "ignoreDRPercent": 20
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Tire Iron",
+      "category": "One-handed",
+      "speed": 0.88,
+      "level": [1, 5, 10, 20, 30, 40, 50],
+      "damage": [12, 14, 17, 20, 23, 26, 29],
+      "mods": [
+        {
+          "slot": "Main",
+          "options": [
+            {
+              "name": "Standard"
+            },
+            {
+              "name": "Bladed",
+              "damageMultPercent": 10
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Blade of Bastet",
+      "category": "One-handed",
+      "speed": 0.88,
+      "level": [25, 35, 45],
+      "damage": [42, 46, 52],
+      "mods": [
+        {
+          "slot": "Blade",
+          "options": [
+            {
+              "name": "Standard"
+            },
+            {
+              "name": "Serrated",
+              "damageMultPercent": 20
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Fire Axe",
+      "category": "Two-handed",
+      "speed": 0.55,
+      "level": [5, 15, 25, 35, 45],
+      "damage": [35, 45, 55, 65, 72],
+      "mods": [
+        {
+          "slot": "Blade",
+          "options": [
+            {
+              "name": "Standard"
+            },
+            {
+              "name": "Spikes",
+              "ignoreDRPercent": 20
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Guitar Sword",
+      "category": "One-handed",
+      "speed": 0.88,
+      "level": [15, 25, 35, 45],
+      "damage": [35, 40, 45, 50],
+      "mods": []
+    },
+    {
+      "name": "Assaultron Blade",
+      "category": "One-handed",
+      "speed": 0.88,
+      "level": [25, 35, 45],
+      "damage": [28, 33, 40],
+      "mods": []
+    },
+    {
+      "name": "Pitchfork",
+      "category": "Two-handed",
+      "strengthFactor": 0.1,
+      "speed": 0.88,
+      "level": [1, 5, 15, 25, 35, 45],
+      "damage": [22, 27, 32, 37, 42, 47],
+      "mods": [
+        {
+          "slot": "Forks",
+          "options": [
+            {
+              "name": "Standard"
+            },
+            {
+              "name": "Barbed",
+              "damageMultPercent": 15
+            },
+            {
+              "name": "Flaming",
+              "damageMultPercent": 15,
+              "addDamageEnergyLeveled": [2, 3.5, 5, 6.5, 8, 9.5]
+            },
+            {
+              "name": "Barbed Flaming",
+              "damageMultPercent": 15,
+              "addDamageEnergyLeveled": [2, 3.5, 5, 6.5, 8, 9.5]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Revolutionary Sword",
+      "category": "One-handed",
+      "speed": 0.88,
+      "level": [10, 20, 30, 40, 50],
+      "damage": [24, 29, 34, 39, 44],
+      "mods": [
+        {
+          "slot": "Blade",
+          "options": [
+            {
+              "name": "Standard"
+            },
+            {
+              "name": "Serrated",
+              "damageMultPercent": 10
+            },
+            {
+              "name": "Electrified",
+              "addDamageEnergyPercentLeveled": [10, 15, 20, 25, 30]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "War Drum",
+      "category": "Two-handed",
+      "speed": 0.55,
+      "level": [15, 25, 35, 45],
+      "damage": [48, 58, 68, 78],
+      "mods": []
+    },
+    {
+      "name": "Walking Cane",
+      "category": "One-handed",
+      "strengthFactor": 0.1,
+      "speed": 0.88,
+      "level": [1, 5, 10, 20, 30, 40, 50],
+      "damage": [17, 19, 22, 27, 32, 37, 42],
+      "mods": [
+        {
+          "slot": "Main",
+          "options": [
+            {
+              "name": "Standard"
+            },
+            {
+              "name": "Barbed",
+              "damageMultPercent": 10,
+              "ignoreDRPercent": 20
+            },
+            {
+              "name": "Spiked",
+              "damageMultPercent": 10
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Security Baton",
+      "category": "One-handed",
+      "speed": 0.88,
+      "level": [5, 15, 25, 35, 45],
+      "damage": [15, 25, 30, 35, 40],
+      "mods": []
+    },
+    {
+      "name": "Meat Hook",
+      "category": "Unarmed",
+      "speed": 0.88,
+      "level": [5, 15, 25, 35, 45],
+      "damage": [14, 19, 24, 29, 34],
+      "mods": [
+        {
+          "slot": "Hooks",
+          "options": [
+            {
+              "name": "Standard"
+            },
+            {
+              "name": "Extra",
+              "damageMultPercent": 20
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Pipe Wrench",
+      "category": "One-handed",
+      "speed": 0.88,
+      "level": [1, 5, 10, 20, 30, 40, 50],
+      "damage": [13, 15, 18, 21, 24, 27, 30],
+      "mods": [
+        {
+          "slot": "Main",
+          "options": [
+            {
+              "name": "Standard"
+            },
+            {
+              "name": "Hooked",
+              "damageMultPercent": 10
+            },
+            {
+              "name": "Heavy",
+              "damageMultPercent": 15
+            },
+            {
+              "name": "Extra Heavy",
+              "damageMultPercent": 25
+            },
+            {
+              "name": "Puncturing",
+              "damageMultPercent": 10,
+              "ignoreDRPercent": 20
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Ripper",
+      "category": "One-handed",
+      "speed": 4.2,
+      "level": [40],
+      "damage": [3],
+      "mods": [
+        {
+          "slot": "Blade",
+          "options": [
+            {
+              "name": "Standard"
+            },
+            {
+              "name": "Extended",
+              "damageMultPercent": 66.6
+            },
+            {
+              "name": "Curved",
+              "damageMultPercent": 33.3,
+              "ignoreDRPercent": 20
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Mr. Handy Buzz Blade",
+      "category": "One-handed",
+      "speed": 4.2,
+      "level": [15, 25, 35, 45],
+      "damage": [4, 5, 6, 7],
+      "mods": [
+        {
+          "slot": "Blade",
+          "options": [
+            {
+              "name": "Standard"
+            },
+            {
+              "name": "Electrified",
+              "addDamageEnergyPercentLeveled": [10, 15, 20, 25]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Chinese Officer Sword",
+      "category": "One-handed",
+      "speed": 0.88,
+      "level": [5, 15, 25, 35, 45],
+      "damage": [16, 21, 26, 31, 36],
+      "mods": [
+        {
+          "slot": "Blade",
+          "options": [
+            {
+              "name": "Standard"
+            },
+            {
+              "name": "Serrated",
+              "damageMultPercent": 10
+            },
+            {
+              "name": "Electrified",
+              "addDamageEnergyPercentLeveled": [5, 10, 15, 20, 25]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Grognak's Axe",
+      "category": "Two-handed",
+      "speed": 0.55,
+      "level": [30, 40, 50],
+      "damage": [65, 75, 85],
+      "mods": []
+    },
+    {
+      "name": "Shishkebab",
+      "category": "One-handed",
+      "speed": 0.88,
+      "level": [35, 45],
+      "damage": [22, 27],
+      "damageEnergy": [22, 27],
+      "mods": [
+        {
+          "slot": "Main",
+          "options": [
+            {
+              "name": "Standard"
+            },
+            {
+              "name": "Extra Flame Jets",
+              "addDamageEnergyLeveled": [8, 9.5]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Sledgehammer",
+      "category": "Two-handed",
+      "speed": 0.55,
+      "level": [10, 20, 30, 40, 50],
+      "damage": [43, 50, 57, 65, 71],
+      "mods": [
+        {
+          "slot": "Main",
+          "options": [
+            {
+              "name": "Standard"
+            },
+            {
+              "name": "Sharp",
+              "damageMultPercent": 15
+            },
+            {
+              "name": "Heavy",
+              "damageMultPercent": 20,
+              "ignoreDRPercent": 15
+            },
+            {
+              "name": "Heavy Rocket",
+              "damageMultPercent": 25
+            },
+            {
+              "name": "Heavy Spiked",
+              "damageMultPercent": 25,
+              "ignoreDRPercent": 15
+            },
+            {
+              "name": "Heavy Sharp",
+              "damageMultPercent": 25
+            },
+            {
+              "name": "Heavy Shearing Sharp Rocket",
+              "damageMultPercent": 15,
+              "addDamageEnergyLeveled": [3, 4.5, 7, 8.5, 10]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Baseball Bat",
+      "category": "Two-handed",
+      "strengthFactor": 0.1,
+      "speed": 0.55,
+      "level": [1, 5, 15, 25, 35, 45],
+      "damage": [28, 35, 40, 45, 50, 55],
+      "mods": [
+        {
+          "slot": "Main",
+          "options": [
+            {
+              "name": "Standard"
+            },
+            {
+              "name": "Barbed Wire",
+              "damageMultPercent": 20,
+              "ignoreDRPercent": 20
+            },
+            {
+              "name": "Nails",
+              "damageMultPercent": 25,
+              "ignoreDRPercent": 20
+            },
+            {
+              "name": "Razors",
+              "damageMultPercent": 25
+            },
+            {
+              "name": "Chains",
+              "damageMultPercent": 50
+            },
+            {
+              "name": "Saw Blades",
+              "damageMultPercent": 75
+            },
+            {
+              "name": "Bladed Rocket",
+              "damageMultPercent": 75
+            },
+            {
+              "name": "Heated Rocket",
+              "damageMultPercent": 20
+            },
+            {
+              "name": "Spiked Rocket",
+              "damageMultPercent": 25,
+              "ignoreDRPercent": 20
+            },
+            {
+              "name": "Puncturing Rocket",
+              "damageMultPercent": 25,
+              "ignoreDRPercent": 20
+            }
+          ]
+        },
+        {
+          "slot": "Material",
+          "options": [
+            {
+              "name": "Wood"
+            },
+            {
+              "name": "All Star",
+              "damageMultPercent": 20
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Drill",
+      "category": "One-handed",
+      "strengthFactor": 0.1,
+      "speed": 4.2,
+      "level": [20],
+      "damage": [14],
+      "mods": [
+        {
+          "slot": "Main",
+          "options": [
+            {
+              "name": "Standard"
+            },
+            {
+              "name": "Piercing",
+              "damageMultPercent": 15,
+              "ignoreDRPercent": 20
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Spear",
+      "category": "One-handed",
+      "strengthFactor": 0.1,
+      "speed": 0.62,
+      "level": [15, 25, 35, 45],
+      "damage": [43, 48, 53, 58],
+      "mods": []
+    },
+    {
+      "name": "Pole Hook",
+      "category": "Two-handed",
+      "speed": 0.55,
+      "level": [10, 20, 30, 40, 50],
+      "damage": [43, 50, 57, 65, 71],
+      "mods": [
+        {
+          "slot": "Main",
+          "options": [
+            {
+              "name": "Standard"
+            },
+            {
+              "name": "Multihook",
+              "damageMultPercent": 50,
+              "ignoreDRPercent": 20
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Sheperd's Crook",
+      "category": "Two-handed",
+      "speed": 0.55,
+      "level": [10, 20, 30, 40, 50],
+      "damage": [10, 20, 30, 40, 50],
+      "mods": [
+        {
+          "slot": "Main",
+          "options": [
+            {
+              "name": "Standard"
+            },
+            {
+              "name": "Spiked",
+              "damageMultPercent": 10,
+              "ignoreDRPercent": 20
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Bone Club",
+      "category": "One-handed",
+      "speed": 0.88,
+      "level": [15, 25, 35, 45],
+      "damage": [21, 31, 41, 51],
+      "mods": []
+    },
+    {
+      "name": "Bone Hammer",
+      "category": "Two-handed",
+      "speed": 0.55,
+      "level": [15, 25, 35, 45],
+      "damage": [50, 60, 70, 80],
+      "mods": []
+    }
+  ]
+}

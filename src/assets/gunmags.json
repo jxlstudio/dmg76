@@ -1,0 +1,21 @@
+{
+  "slot": "Magazine",
+  "options": [
+    {
+      "name": "Standard",
+      "ignoreDRPercent": 0
+    },
+    {
+      "name": "Stinging",
+      "ignoreDRPercent": 20
+    },
+    {
+      "name": "Piercing",
+      "ignoreDRPercent": 20
+    },
+    {
+      "name": "Perforating",
+      "ignoreDRPercent": 40
+    }
+  ]
+}

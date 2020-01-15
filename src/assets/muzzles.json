@@ -1,0 +1,12 @@
+{
+  "slot": "Muzzle",
+  "options": [
+    {
+      "name": "Standard"
+    },
+    {
+      "name": "Suppressor",
+      "silencer": true
+    }
+  ]
+}
